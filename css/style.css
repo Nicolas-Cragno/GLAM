@@ -1,0 +1,120 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.centrado {
+	text-align: center;
+}
+
+.titulo {
+	text-align: center;
+	padding-bottom: 50px;
+}
+/* HEADER */
+
+header {
+	height: 50px;
+	background: black;
+}
+
+.logo {
+	padding-left: 20px;
+	color: grey;
+}
+
+.tel {
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+	color: white;
+}
+
+nav ul {
+	float: right;
+	margin-right: 20px;
+	padding: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	padding: 10px;
+	color: white;
+	text-transform: uppercase;
+}
+
+/* Seccion SERVICIOS */ 
+
+.inicio {
+	background: url(../images/ruta.jpg) center fixed;
+	background-size: cover;
+	height: 72vh;
+	padding: 40px;
+}
+
+.sub {
+	background-color: #0b1519;
+	color: #808080;
+}
+
+.card {
+	border-color: black;
+}
+
+.card:hover {
+	border-color: grey;
+}
+
+.carousel-item {
+  height: 33vh;
+  min-height: 110px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.card-columns .card {
+  display: inline-block;
+  width: 100%;
+}
+
+.card-body {
+	background-color: black;
+	color: white;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100px !important;
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+/* Seccion PUNTOS*/
+
+.puntos {
+	background-color: #34495E ;
+	padding: 50px;
+	color: white;
+}
+
+.pt {
+	background-color: #212F3C;
+	border-radius: 100%;
+	width: 100px;
+	padding-top: 10px;
+	margin-right: 55px;
+	margin-left: 55px;
+}
+.pt:hover {
+	background-color: black;
+}
+
+.logo2 {
+	font-size: 30px;
+	color: red;
+}
+
+
